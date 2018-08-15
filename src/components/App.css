@@ -1,0 +1,10 @@
+.app {
+  outline: none;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 45px auto;
+  grid-template-areas:
+          "toolbar"
+          "field";
+}
